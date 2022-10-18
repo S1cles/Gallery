@@ -49,7 +49,6 @@ function App() {
             onClick={()=>setCategoryId(i)}
             >{item}</li>
           ))}
-          <li className="active">Все</li>
         </ul>
         <input className="search-input"  placeholder="Поиск по названию" value={searchValue} onChange={(e)=>setSearchValue(e.target.value)} />
       </div>
